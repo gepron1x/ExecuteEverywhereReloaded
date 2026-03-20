@@ -1,5 +1,6 @@
 package space.arim.executeeverywhere.sponge;
 
+import com.google.inject.Inject;
 import org.slf4j.Logger;
 import org.spongepowered.api.Game;
 import org.spongepowered.api.command.CommandCallable;
@@ -17,13 +18,12 @@ import org.spongepowered.api.world.World;
 import space.arim.executeeverywhere.ExecuteEverywhere;
 
 import javax.annotation.Nullable;
-import javax.inject.Inject;
 import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-@Plugin(id = "executeeverywhere", name = "ExecuteEverywhere", version = "0.2.0", authors = "A248")
+@Plugin(id = "executeeverywhere", name = "ExecuteEverywhere", version = "0.2.1", authors = "A248")
 public class ExecuteEverywhereSponge {
 
 	private final Game server;

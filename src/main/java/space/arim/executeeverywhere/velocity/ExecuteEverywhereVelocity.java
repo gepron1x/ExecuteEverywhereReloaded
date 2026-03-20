@@ -1,5 +1,6 @@
 package space.arim.executeeverywhere.velocity;
 
+import com.google.inject.Inject;
 import com.velocitypowered.api.command.CommandSource;
 import com.velocitypowered.api.command.RawCommand;
 import com.velocitypowered.api.event.Subscribe;
@@ -12,10 +13,9 @@ import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.slf4j.Logger;
 import space.arim.executeeverywhere.ExecuteEverywhere;
 
-import javax.inject.Inject;
 import java.nio.file.Path;
 
-@Plugin(id = "executeeverywhere", name = "ExecuteEverywhere", version = "0.2.0", authors = "A248")
+@Plugin(id = "executeeverywhere", name = "ExecuteEverywhere", version = "0.2.1", authors = "A248")
 public class ExecuteEverywhereVelocity {
 
 	private final ProxyServer server;
